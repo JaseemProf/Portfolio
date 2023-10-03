@@ -146,22 +146,22 @@ h2,h3,p{
 }
 
 .css-bar {
-    width: 135px;
+    width: 130px;
 }
 
-.bootstrap-bar {
-    width: 120px;
+.react-bar {
+    width: 125px;
 }
 
 .javascript-bar {
     width: 130px;
 }
 
-.problem-solving-bar {
+.node-bar {
     width: 140px;
 }
-.communication-bar {
-    width: 120px;
+.mongodb-bar {
+    width: 140px;
 }
 
 /* Project Section */
