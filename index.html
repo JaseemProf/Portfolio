@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -36,7 +42,7 @@
         <h2 class="sub-heading about-me-heading">WHO AM I</h2>
 
         <div class="profile">
-          <img src="./img/profile.jpg" alt="profile" class="profile-photo" />
+          <img src="./img/profile.jpeg" alt="profile" class="profile-photo" />
         </div>
 
         <div class="about-me">
@@ -88,11 +94,20 @@
             <div class="progress-bar javascript-bar"></div>
           </div>
 
+          <p class="skill">Bootstrap</p>
+          <div class="outline five">
+            <div class="progress-bar bootstrap-bar"></div>
+          </div>
+          
+          <p class="skill">Express</p>
+          <div class="outline five">
+            <div class="progress-bar express-bar"></div>
+          </div>
+          
           <p class="skill">React</p>
           <div class="outline three">
             <div class="progress-bar react-bar"></div>
           </div>
-
 
           <p class="skill">Node</p>
           <div class="outline five">
@@ -109,7 +124,7 @@
     <section class="container-three">
       <div class="projects-container">
         <h2 class="sub-heading project-heading">PROJECTS</h2>
-        <div class="projects-list">
+        <!-- <div class="projects-list">
           <div class="project">
             <a href="./Projects/Mondrian Paint/index.html">
               <img src="./img/mondrian-painting.png" alt="Mondrian Painting" />
@@ -140,6 +155,107 @@
               and Mobile
             </p>
           </div>
+        </div> -->
+        <div class="container">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel carousel-dark slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a
+                  target="#"
+                  href="https://64f1e538099ed86b9afa52e7--astounding-gumdrop-c3b8de.netlify.app/"
+                >
+                  <img
+                    src="./img/project-1.png"
+                    class="d-block w-100"
+                    alt="short-url"
+                  />
+                </a>
+                <div class="carousel-caption d-none d-md-block caption">
+                  <h5>Short-URL</h5>
+                  <p>
+                    This website will reduce the long URL to short URL and it is
+                    a Full Stack web application.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a target="#" href="https://todo-list-az7l.onrender.com/">
+                  <img
+                    src="./img/project-4.png"
+                    class="d-block w-100"
+                    alt="Todolist"
+                  />
+                </a>
+                <div class="carousel-caption d-none d-md-block caption">
+                  <h5>Todo-List</h5>
+                  <p>
+                    This page is created using Node, Express and EJS, It's a
+                    simple Todolist dogs.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a target="#" href="./Projects/Tindog/index.html">
+                  <img
+                    src="./img/project-2.png"
+                    class="d-block w-100"
+                    alt="Tindog"
+                  />
+                </a>
+                <div class="carousel-caption d-none d-md-block caption">
+                  <h5>Tindog</h5>
+                  <p>
+                    This page is created using HTML and BOOTSTRAP, It's Tinder
+                    for dogs.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a target="#" href="./Projects/Web Agency/index.html">
+                  <img
+                    src="./img/project-3.png"
+                    class="d-block w-100"
+                    alt="Design Agency"
+                  />
+                </a>
+                <div class="carousel-caption d-none d-md-block caption">
+                  <h5>Design Agency</h5>
+                  <p>
+                    This page is about Design Agency and it's responsive to
+                    Desktop and Mobile.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
       </div>
     </section>
@@ -147,13 +263,13 @@
     <section class="footer">
       <div class="footer-container">
         <div class="links">
-          <a href="mailto:jaseem.bca@gmail.com">
+          <a target="#" href="mailto:jaseem.bca@gmail.com">
             <img src="./img/email.png" alt="e-mail" />
           </a>
-          <a href="https://github.com/JaseemProf">
+          <a target="#" href="https://github.com/JaseemProf">
             <img src="./img/github.png" alt="github" />
           </a>
-          <a href="https://www.linkedin.com/in/jaseemprof/">
+          <a target="#" href="https://www.linkedin.com/in/jaseemprof/">
             <img src="./img/linkedin.png" alt="linkedin" />
           </a>
         </div>
@@ -161,5 +277,10 @@
         <p class="copyright">©️ Jaseem All Rights Reserved</p>
       </div>
     </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
